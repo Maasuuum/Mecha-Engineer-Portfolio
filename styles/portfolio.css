@@ -188,3 +188,12 @@ main section {
 }
 
 /*About section styles */
+
+/* footer style */
+footer{
+    display: flex;
+    background-color: #faf3ff;
+    margin-top: 100px;
+    padding: 130px 230px;
+
+}
