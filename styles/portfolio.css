@@ -13,8 +13,23 @@ body {
     border: 0;
     color: white;
     font-size: 15px;
-    font-weight: 500; 
-    padding: 5px 15px;  
+    font-weight: 500;
+    padding: 5px 15px;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 /* nav related styles */
@@ -33,7 +48,7 @@ nav {
     padding-right: 200px;
 }
 
-nav > ul{
+nav>ul {
     display: flex;
     align-items: center;
 }
@@ -47,14 +62,49 @@ nav a {
     text-decoration: none;
     color: var(--dark-02, #474747);
 }
-.header{
+
+.header {
     background-color: #faf3ff;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 100px;
+
+.banner {
+    padding: 30px 30px 0px 100px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .profile-pic{
+
+.banner-content {
+    max-width: 500px;
+
+}
+
+.banner .profile-pic {
     width: 400px;
 }
+
+.banner-greating {
+    font-size: 55px;
+    color: var(--dark-02, #474747);
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 65px;
+    font-weight: 600;
+    margin-top: 5px;
+
+}
+
+/* Main section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #fef3ff;
+    margin: 130px 0;
+}
+
+/*About section styles */
